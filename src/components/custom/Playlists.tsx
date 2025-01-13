@@ -91,5 +91,11 @@ export default function Playlists({ playlists }: { playlists: Playlist[] }) {
 				</div>
 			</DialogContent>
 		</Dialog>
+
+		{error && (
+        <div className="text-red-500 mt-4">
+          <strong>Error:</strong> {error}
+        </div>
+      )}
 	</>
 }
