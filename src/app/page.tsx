@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { useGoogleLogin } from '@react-oauth/google';
 import { useState, useEffect } from "react";
-import { Playlist, YouTubeAPIResponse, Video, YouTubeVideoResponse } from "@/types/youtube";
+import { Playlist, YouTubeAPIResponse } from "@/types/youtube";
 import { GoogleTokenResponse } from "@/types/auth";
 import Playlists from "@/components/custom/Playlists";
 
